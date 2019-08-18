@@ -21,6 +21,5 @@ export const twoFer = (name) => {
 }*/
 
 
-export const twoFer = (name = 'you') => {
-  return `One for ${name}, one for me.`
-}
+export const twoFer = (name = 'you') => `One for ${name}, one for me.`
+// In the case that your arrow function has a single expression as the function body, that expression will be executed, and the resulting value will be implicitly returned when the function is called.
